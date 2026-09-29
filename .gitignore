@@ -57,6 +57,14 @@ compile_commands.json
 *.log
 *.bak
 *.swp
+.vs/
+out/
+x64/
+x86/
+Debug/
+Release/
+*.user
+*.suo
 
 # vcpkg
 vcpkg_installed/
