@@ -1,7 +1,4 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
+# C/C++ Compiled Object files
 *.slo
 *.lo
 *.o
@@ -11,38 +8,43 @@
 *.gch
 *.pch
 
-# Linker files
+# Linker & Import files
 *.ilk
+*.exp
+*.lib
+*.dll
+*.so
+*.so.*
+*.dylib
 
 # Debugger Files
 *.pdb
+*.idb
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
+# Fortran & Static libraries
 *.mod
 *.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
 
-# Build directories
-build/
-Build/
-build-*/
+# Visual Studio & MSBuild Output Folders (Tüm alt klasörleri kapsar)
+**/[Dd]ebug/
+**/[Rr]elease/
+**/x64/
+**/x86/
+**/[Bb]uild*/
+**/out/
+.vs/
+*.user
+*.suo
+*.db
+*.opendb
 
 # CMake generated files
 CMakeFiles/
@@ -57,21 +59,8 @@ compile_commands.json
 *.log
 *.bak
 *.swp
-.vs/
-out/
-x64/
-x86/
-Debug/
-Release/
-*.user
-*.suo
 
-# vcpkg
+# vcpkg & Caches
 vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
 Testing/
 .cache/

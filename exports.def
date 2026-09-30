@@ -1,0 +1,5 @@
+LIBRARY VkWraith
+EXPORTS
+    vkGetInstanceProcAddr=vkwraith_GetInstanceProcAddr
+    vkGetDeviceProcAddr=vkwraith_GetDeviceProcAddr
+    VK_LAYER_HERLIENCE_VKWRAITH_Negotiate
